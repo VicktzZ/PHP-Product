@@ -9,17 +9,17 @@
         private $price;
         private $pdo;
 
-	      function __construct(){
-            $dns = "mysql:dbname=produto;host=localhost";
-            $dbUser = "root";
-           $dbPass = "";
+	    // function __construct(){
+            // $dns = "mysql:dbname=produto;host=localhost";
+            // $dbUser = "root";
+            // $dbPass = "";
 
-            try {
-                $this->pdo = new PDO($dns, $dbUser, $dbPass);
-            } catch (Exception $e) {
-                echo "<h1>Não consegui Conectar. Tente mais tarde";
-            }
-        }
+            // try {
+            //    $this->pdo = new PDO($dns, $dbUser, $dbPass);
+            // } catch (Exception $e) {
+            //    echo "<h1>Não consegui Conectar. Tente mais tarde";
+            // }
+        // }
       
         // GETTERS
 
